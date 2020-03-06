@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://SarranaymaR:ramya@agropro-rhuiq.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "lulu is cute"
+}

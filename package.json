@@ -1,0 +1,31 @@
+{
+  "name": "agropro",
+  "version": "1.0.0",
+  "description": "AgroPro",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --perfix client"
+  },
+  "author": "Sarran",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
+  }
+}
