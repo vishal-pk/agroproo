@@ -49,7 +49,7 @@ const AdItem = (props) => {
                     <hr></hr>
                     <p>Posted on  {add.date.toString()}  </p>
                     <hr></hr>
-                    <img className="rounded" src={add.img} height="400px" width="700px" objectFit="cover"  alt="Ad Image"></img>
+                    <img className="rounded" src={add.img} height="35%" width="90%" objectFit="cover"  alt="Ad Image"></img>
                     <hr></hr>
                     <h4>Details:</h4>
                     <h6>Price:</h6><p className="lead">{add.price} ₹/Kg</p>
