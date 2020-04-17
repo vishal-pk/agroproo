@@ -75,7 +75,7 @@ const ForumItem = (props) => {
                     <hr></hr>
                     <p>Posted <Moment fromNow date={post.date} /></p>
                     <hr></hr>
-                    <img className="rounded" src={post.img} height="400px" width="700px" objectFit="cover"  alt="Post Image"></img>
+                    <img className="rounded" src={post.img} height="25%" width="90%" objectFit="cover"  alt="Post Image"></img>
                     <hr></hr>
                     <h4>Description:</h4>
                     <p className="lead">{post.desc}</p>
