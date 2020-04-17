@@ -33,7 +33,7 @@ app.use('/api/forum',require('./routes/forumPost'));
 app.use('/api/adds',require('./routes/adds'));
 
 
-// Production 
+// Production code
 if(process.env.NODE_ENV === 'production'){
   // Set static folder
   app.use(express.static('client/build'));
